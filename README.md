@@ -1,6 +1,8 @@
 # Trivia-Game
 A space-themed, multiple choice, TIMED trivia game using jQuery
 
+https://lindsnicolewalker.github.io/Trivia-Game/
+
 This project's focus was for practice with timers!
 
 ## Installation
