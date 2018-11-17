@@ -1,0 +1,87 @@
+.answerchoice {
+    border: 1px solid #3b3bb8;
+    width: 67%;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color:rgba(80, 60, 255, 0.6);
+  
+  }
+  
+  img {
+    max-height: 250px;
+    width: auto;
+    border: 2px solid #3b3bb8;
+  
+  }
+  
+  #answerdisplay {
+    text-align: center;
+
+  }
+  
+  #questiondisplay {
+    text-align: center;
+    font-weight: bold;
+    color: white; 
+
+  }
+  
+  #decrementingtimer {
+      color:white;
+
+  }
+  
+  #reset {
+    visibility: visible;
+
+  }
+  
+  body {
+    background-image: url("https://cdn1.medicalnewstoday.com/content/images/articles/321/321404/view-from-space-shuttle.jpg");
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, .75);
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 50px;
+
+  }
+  
+  p {
+    margin: 10px;
+    font-weight: bold;
+    color: rgba(243, 232, 83, .75);
+    font-size: 30px;
+
+  }
+  
+  h2, h3, h4 {
+    margin: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .75); 
+
+  }
+  
+  .wrapper {
+    margin: 10px auto;
+    background-color: rgba(17, 16, 16, 0.75);
+    border: 2px solid #3b3bb8;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+
+  }
+  
+  .btn {
+    position: relative;
+    bottom: -150px;
+    width: 67%; 
+    
+  }
