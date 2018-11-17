@@ -9,13 +9,13 @@ $(document).ready(function () {
             photo: "assets/images/apollo11.jpg"
          },
          {
-             question: "What is the name for meteoroids that survive entry through the atmosphere and reach Earth’s surface?", 
+            question: "What is the name for meteoroids that survive entry through the atmosphere and reach Earth’s surface?", 
             choice: ["Meteorites", "Meteors", "Shooting Stars", "Thor's Hammer"],
             answer: 0,
             photo: "assets/images/meteorite.jpg"
          }, 
          {
-             question: "Able to be seen from outer space, what is Earth’s largest living structure?", 
+            question: "Able to be seen from outer space, what is Earth’s largest living structure?", 
             choice: ["Yucatán Peninsula", "Blue Whale", "The Great Barrior Reef", "Mesoamerican Barrier Reef System" ],
             answer: 2,
             photo: "assets/images/greatbarriorreef.jpg"
@@ -45,18 +45,20 @@ $(document).ready(function () {
             photo: "assets/images/jupiter.gif"
         }, 
         {
-            question: "Hale-Bopp is classified as which type of small Solar System body?",choice: ["Comet", "Planet", "Moon", "Avocado" ],
+            question: "Hale-Bopp is classified as which type of small Solar System body?",
+            choice: ["Comet", "Planet", "Moon", "Avocado" ],
             answer: 0,
             photo: "assets/images/comet.webp"
         },
         {
-            question: "What is the name for the disc-shaped region of icy bodies that extends from Neptune to about 55 astronomical units from the Sun?",
+            question: "What is the region of icy bodies that extends from Neptune to 55 astronomical units from the Sun?",
             choice: ["The Kuiper Belt", "Neptune's Ring", "Milky Way", "Event Horizon" ],
             answer: 0,
             photo: "assets/images/kuiperbelt.jpg"
         },
         {
-            question: "In our solar system which two planets are known as ice giants?",choice: ["Uranus and Neptune", "Jupiter and Saturn", "Earth and Mars", "Uranus and Pluto" ],
+            question: "In our solar system which two planets are known as ice giants?",
+            choice: ["Uranus and Neptune", "Jupiter and Saturn", "Earth and Mars", "Uranus and Pluto" ],
             answer: 0,
             photo: "assets/images/icegiants.jpg"
         }];
@@ -193,7 +195,7 @@ $(document).ready(function () {
     //jquery reset to prepare to start game over again 
     $("#reset").on("click", function() {
         $("#reset").hide();
-        $("#answerblock").empty();
+        $("#answerdisplay").empty();
         $("#questiondisplay").empty();
         for(var i = 0; i < temp.length; i++) {
             trivia.push(temp[i]);
